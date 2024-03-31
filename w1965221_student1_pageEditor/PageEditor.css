@@ -1,0 +1,55 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color:white; 
+    color: #333; /* Default text color */
+}
+
+.person_name{
+    height: 100px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: center;
+    
+    
+    
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding to create space around the text */
+    margin: 10px auto; /* Add margin to center the heading vertically and horizontally */
+   
+    
+}
+
+.container { 
+    max-width: 1000px; /* Maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add padding around content */
+}
+
+h5{
+    text-align: center;
+    margin: 5px auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+a{
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.text{
+    margin-bottom:  20px; ;
+}

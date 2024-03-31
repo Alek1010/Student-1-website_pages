@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:white; 
+    color: #333; /* Default text color */
+    
+    
+}
+
+/* Container styles */
+.container { 
+    
+    max-width: 1000px; /* Maximum width for content */
+    margin: 80px auto 0; /* Center content horizontally */
+    padding: 20px; /* Add padding around content */
+    outline: solid;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.center_bt{
+    display: flex;
+    margin: auto;
+   
+    
+}
+
+#b_top{
+    position: absolute; /* Fixed position to keep it always visible */
+    top: 100px; /* Distance from the top */  
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;  
+    
+}
+
+#bottom{
+    position: absolute; /* Fixed position to keep it always visible */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+
+
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+p {
+    margin-top: 10px; /* Add space above paragraphs */
+    margin-bottom: 10px; /* Add space below paragraphs */
+}
+
+/* Apply padding within paragraphs */
+p {
+    padding: 10px; /* Add space within paragraphs */
+}
+
+/* Style for centered h1 heading */
+h1 {
+    text-align: center; /* Center the text horizontally */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding to create space around the text */
+    margin-bottom: 20px auto; /* Add margin to center the heading vertically and horizontally */
+    width: 100%; /* Make the heading span the entire width of its containing element */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+
+
+
+

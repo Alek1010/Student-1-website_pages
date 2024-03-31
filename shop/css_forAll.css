@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:white; 
+    color: #333; /* Default text color */
+    
+    
+}
+
+/* Container styles */
+.container { 
+    max-width: 1000px; /* Maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add padding around content */
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation list */
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+/* Style the navigation links */
+nav ol li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li a {
+    display: block;
+    padding: 20px 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Change link color on hover */
+nav ol li a:hover {
+    background-color: #555;
+}
+
